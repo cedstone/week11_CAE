@@ -7,20 +7,21 @@
 
 int main(){
     int i, j;
-    for(i=1; i<=12; i++)
+    int maximum = 8;
+    for(i=1; i<=maximum; i++)
     {
         printf("\t%d", i);
     }
     printf("\n");
-    for(i = 0; i < 100; i++)
+    for(i = 0; i < (9*maximum); i++)
     {
         printf("-");
     }
     printf("\n");
-    for(i = 1; i <= 12; i++)
+    for(i = 1; i <= maximum; i++)
     {
         printf("%2.d  |", i);
-        for(j=1; j <= 12; j++)
+        for(j=1; j <= maximum; j++)
         {
             int product = i * j;
             printf("\t%d", product);
