@@ -17,6 +17,6 @@ int main(){
             inside++;
         }
     }
-    float pi = 4 * (inside / n);
+    float pi = 4 * ((float)inside / n);
     printf("%f\n", pi);
 }
