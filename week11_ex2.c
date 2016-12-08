@@ -22,4 +22,5 @@ int main(){
     }
     float pi = 4 * ((float)inside / n);   // Calculate approximation of pi
     printf("%f\n", pi);                   // Display result
+    return 0;
 }
