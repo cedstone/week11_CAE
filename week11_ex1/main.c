@@ -7,6 +7,7 @@
 
 enum day {Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday};
 
+//Function to calculate day of week from date
 enum day dayofweek(int year, int month, int day)
 {
     if (month < 3)
@@ -20,6 +21,7 @@ enum day dayofweek(int year, int month, int day)
 }
 
 int main(int argc, char *argv[]){
+    // Note that the program itself is the first argument, so the minimum is 1
     if(argc != 4)
     {
         printf("Fatal error: Found %d arguments but expected 3\n", argc-1);
